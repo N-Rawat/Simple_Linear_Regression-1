@@ -51,7 +51,7 @@ print('Shape of old y predict in 1d: ' , y_pred.shape)
 y_pred1 = model.intercept_ + model.coef_ * X
 print('predicted response:', y_pred1, sep='\n')
 
-print('Shape of X in  : ' , X.shape)
+print('Shape of X : ' , X.shape)
 print('Shape of y predict in 2d: ' , y_pred1.shape)
 
 #in this case u multiply each ele of x with model.coef_ and add it to model.intercept_
@@ -66,7 +66,7 @@ print('new X array(input): ' , X_new)
 y_newpred = model.predict(X_new)
 print('new y predicted value: ' , y_newpred)
 
-print('Shape of X in  d: ' , X_new.shape)
+print('Shape of X : ' , X_new.shape)
 print('Shape of y predict in 1d: ' , y_newpred.shape)
 
 
